@@ -1,40 +1,28 @@
 <#include "security.ftlh">
 <#import "login.ftlh" as login>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
+        <a class="navbar-brand" href="#">Navbar</a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
                 <#if isAdmin>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/user">User List</a>
-                    </li>
+                    <a class="nav-link" href="/user">User List</a>
                 </#if>
                 <#if user??>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/main">Messages</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/userMessages/${currentUserId}">My messages</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/user/profile">Profile</a>
-                    </li>
+                    <a class="nav-link" href="/main">Messages</a>
+                    <a class="nav-link" href="/userMessages/${currentUserId}">My messages</a>
                 </#if>
-            </ul>
+            </div>
         </div>
 
-
-        <div class="navbar-text mr-3"><#if user??>${name}<#else>Please, login</#if></div>
-        <@login.logout />
+        <div class="d-flex">
+            <#if user??><a class="navbar-item align-middle m-2" href="/user/profile">${name}</a></#if>
+            <form action="/logout" method="post">
+                <input type="hidden" name="_csrf" value="${_csrf.token}"/>
+                <button class="btn btn-outline-success" type="submit"><#if user??>Sign Out<#else>Log in</#if></button>
+            </form>
+        </div>
     </div>
 </nav>

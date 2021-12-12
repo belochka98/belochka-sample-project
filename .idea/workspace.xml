@@ -6,27 +6,59 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main.test" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d3e47fd-8f3a-404c-8b1d-c4d951b3daeb" name="Default Changelist" comment="Revert &quot;Delete src/main directory&quot;&#10;&#10;This reverts commit ec2a2406">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/myProject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Application2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/config/MvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/ControllerUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/RegistrationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repos/MessageRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repos/UserRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/MailSenderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V1_1_0__my_first_migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V1_1_1__my_first_migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V1_1_2__my_first_migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/greeting.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/login.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageEdit.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/security.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/profile.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/registration.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userEdit.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userList.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userMessages.ftlh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +79,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="name.test" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,8 +88,11 @@
   <component name="ProjectId" id="21JcYy33gXuk4G4cuhT6IVE8NxC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
@@ -111,7 +146,6 @@
       </method>
     </configuration>
     <configuration name="console_2.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$APPLICATION_CONFIG_DIR$/consoles/db/2e30a9e2-7114-40a0-a4a0-8c471966f17a/console_2.sql" />
       <script-mode>FILE</script-mode>
       <method v="2" />
     </configuration>
@@ -200,7 +234,9 @@
       <workItem from="1639324567223" duration="11000" />
       <workItem from="1639324581770" duration="218000" />
       <workItem from="1639324801556" duration="371000" />
-      <workItem from="1639325174224" duration="298000" />
+      <workItem from="1639325174224" duration="3229000" />
+      <workItem from="1639328409874" duration="4142000" />
+      <workItem from="1639334170865" duration="86000" />
     </task>
     <task id="LOCAL-00001" summary="tt">
       <created>1639299473243</created>
@@ -237,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639325312747</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Revert &quot;Delete src/main directory&quot;&#10;&#10;This reverts commit ec2a2406">
+      <created>1639325500128</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639325500128</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +298,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="main.test" />
                       </list>
                     </value>
                   </entry>
@@ -298,10 +341,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="192" y="8" key="#SSH_Configurations/0.0.1366.728@0.0.1366.728" timestamp="1638997457143" />
-    <state x="274" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1639325303041">
+    <state x="274" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1639328401396">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="274" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1639325303041" />
+    <state x="274" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1639328401396" />
     <state x="438" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1637938428926">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -310,10 +353,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1639234207531" />
-    <state x="549" y="170" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1639314402027">
+    <state x="549" y="170" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1639328376421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="549" y="170" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1639314402027" />
+    <state x="549" y="170" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1639328376421" />
     <state x="263" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1638306704735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -342,38 +385,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="507" y="281" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1639324858542" />
-    <state width="1322" height="200" key="GridCell.Tab.0.bottom" timestamp="1639313978165">
+    <state width="1322" height="200" key="GridCell.Tab.0.bottom" timestamp="1639334168131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1639313978165" />
-    <state width="1322" height="200" key="GridCell.Tab.0.center" timestamp="1639313978165">
+    <state width="1322" height="200" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1639334168131" />
+    <state width="1322" height="200" key="GridCell.Tab.0.center" timestamp="1639334168131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1639313978165" />
-    <state width="1322" height="200" key="GridCell.Tab.0.left" timestamp="1639313978165">
+    <state width="1322" height="200" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1639334168131" />
+    <state width="1322" height="200" key="GridCell.Tab.0.left" timestamp="1639334168131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1639313978165" />
-    <state width="1322" height="200" key="GridCell.Tab.0.right" timestamp="1639313978165">
+    <state width="1322" height="200" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1639334168131" />
+    <state width="1322" height="200" key="GridCell.Tab.0.right" timestamp="1639334168131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1639313978165" />
-    <state width="1322" height="200" key="GridCell.Tab.1.bottom" timestamp="1639313978166">
+    <state width="1322" height="200" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1639334168131" />
+    <state width="1322" height="200" key="GridCell.Tab.1.bottom" timestamp="1639334168131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1639313978166" />
-    <state width="1322" height="200" key="GridCell.Tab.1.center" timestamp="1639313978166">
+    <state width="1322" height="200" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1639334168131" />
+    <state width="1322" height="200" key="GridCell.Tab.1.center" timestamp="1639334168131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1639313978166" />
-    <state width="1322" height="200" key="GridCell.Tab.1.left" timestamp="1639313978166">
+    <state width="1322" height="200" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1639334168131" />
+    <state width="1322" height="200" key="GridCell.Tab.1.left" timestamp="1639334168131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1639313978166" />
-    <state width="1322" height="200" key="GridCell.Tab.1.right" timestamp="1639313978166">
+    <state width="1322" height="200" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1639334168131" />
+    <state width="1322" height="200" key="GridCell.Tab.1.right" timestamp="1639334168131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1639313978166" />
+    <state width="1322" height="200" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1639334168131" />
     <state width="915" height="200" key="GridCell.Tab.2.bottom" timestamp="1639313714325">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -394,10 +437,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1639225695714" />
-    <state x="426" y="35" key="Maven.ArtifactSearchDialog" timestamp="1637677859901">
+    <state x="426" y="35" key="Maven.ArtifactSearchDialog" timestamp="1639334224876">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="426" y="35" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1637677859901" />
+    <state x="426" y="35" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1639334224876" />
     <state x="25" y="229" width="1003" height="287" key="MultipleFileMergeDialog" timestamp="1639323080537">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -418,10 +461,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="523" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1637940158538" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1639325453603">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1639325652915">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1639325453603" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1639325652915" />
     <state width="683" height="367" key="XDebugger.FullValuePopup" timestamp="1638896255414">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -458,10 +501,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="177" y="67" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.0.1366.728@0.0.1366.728" timestamp="1639233619383" />
-    <state x="492" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1639301123403">
+    <state x="492" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1639325592479">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1639301123403" />
+    <state x="492" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1639325592479" />
     <state x="237" y="91" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1638307846802">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -470,10 +513,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="116" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1639262915462" />
-    <state x="390" y="76" width="585" height="582" key="find.popup" timestamp="1639241379011">
+    <state x="390" y="76" width="585" height="582" key="find.popup" timestamp="1639327078120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="76" width="585" height="582" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1639241379011" />
+    <state x="390" y="76" width="585" height="582" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1639327078120" />
     <state x="516" y="224" key="git4idea.rebase.GitRebaseDialog" timestamp="1639301461379">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

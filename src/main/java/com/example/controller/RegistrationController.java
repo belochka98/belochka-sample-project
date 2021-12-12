@@ -38,7 +38,7 @@ public class RegistrationController {
             model.addAttribute("password_confirmError", "Password confirmation is empty!");
         }
 
-        if (user.getPassword() != null && !user.getPassword().equals(password_confirm)) {
+        if (user.getPassword () != null && !user.getPassword().equals(password_confirm)) {
             model.addAttribute("passwordError", "Passwords are different!");
         }
 
