@@ -56,7 +56,10 @@ public class RegistrationController {
             return "registration";
         }
 
-        return "redirect:/login";
+        model.addAttribute("messageType", "success");
+        model.addAttribute("message", "Message with activation code has been sent to your email!");
+
+        return "login";
     }
 
     @GetMapping("/activate/{code}")
@@ -68,7 +71,7 @@ public class RegistrationController {
             model.addAttribute("message", "User successfully activated");
         } else {
             model.addAttribute("message", "Activation code is not found!");
-            model.addAttribute("message", "danger");
+            model.addAttribute("messageType", "danger");
         }
 
         return "login";
