@@ -17,31 +17,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d3e47fd-8f3a-404c-8b1d-c4d951b3daeb" name="Default Changelist" comment="Revert &quot;Delete src/main directory&quot;&#10;&#10;This reverts commit ec2a2406">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/RegistrationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/User.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repos/MessageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repos/MessageRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repos/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repos/UserRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/MailSenderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/config/MvcConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/config/WebSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/ControllerUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/RegistrationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repos/MessageRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repos/UserRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/MailSenderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/UserService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,6 +204,7 @@
       <workItem from="1639334170865" duration="86000" />
       <workItem from="1639334309696" duration="1634000" />
       <workItem from="1639413100508" duration="2380000" />
+      <workItem from="1639420897928" duration="885000" />
     </task>
     <task id="LOCAL-00001" summary="tt">
       <created>1639299473243</created>
@@ -272,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639334377620</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Revert &quot;Delete src/main directory&quot;&#10;&#10;This reverts commit ec2a2406">
+      <created>1639420887104</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639420887104</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,6 +359,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="121" y="102" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1638898978996" />
+    <state x="412" y="204" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1639420929399">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="204" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1639420929399" />
     <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1639323085418">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -381,38 +375,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="507" y="281" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1639324858542" />
-    <state width="1322" height="200" key="GridCell.Tab.0.bottom" timestamp="1639413231169">
+    <state width="1322" height="288" key="GridCell.Tab.0.bottom" timestamp="1639420895326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1639413231169" />
-    <state width="1322" height="200" key="GridCell.Tab.0.center" timestamp="1639413231168">
+    <state width="1322" height="288" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1639420895326" />
+    <state width="1322" height="288" key="GridCell.Tab.0.center" timestamp="1639420895326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1639413231168" />
-    <state width="1322" height="200" key="GridCell.Tab.0.left" timestamp="1639413231168">
+    <state width="1322" height="288" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1639420895326" />
+    <state width="1322" height="288" key="GridCell.Tab.0.left" timestamp="1639420895326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1639413231168" />
-    <state width="1322" height="200" key="GridCell.Tab.0.right" timestamp="1639413231169">
+    <state width="1322" height="288" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1639420895326" />
+    <state width="1322" height="288" key="GridCell.Tab.0.right" timestamp="1639420895326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1639413231169" />
-    <state width="1322" height="200" key="GridCell.Tab.1.bottom" timestamp="1639336164454">
+    <state width="1322" height="288" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1639420895326" />
+    <state width="1322" height="288" key="GridCell.Tab.1.bottom" timestamp="1639420895327">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1639336164454" />
-    <state width="1322" height="200" key="GridCell.Tab.1.center" timestamp="1639336164454">
+    <state width="1322" height="288" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1639420895327" />
+    <state width="1322" height="288" key="GridCell.Tab.1.center" timestamp="1639420895326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1639336164454" />
-    <state width="1322" height="200" key="GridCell.Tab.1.left" timestamp="1639336164453">
+    <state width="1322" height="288" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1639420895326" />
+    <state width="1322" height="288" key="GridCell.Tab.1.left" timestamp="1639420895326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1639336164453" />
-    <state width="1322" height="200" key="GridCell.Tab.1.right" timestamp="1639336164454">
+    <state width="1322" height="288" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1639420895326" />
+    <state width="1322" height="288" key="GridCell.Tab.1.right" timestamp="1639420895327">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1639336164454" />
+    <state width="1322" height="288" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1639420895327" />
     <state width="915" height="200" key="GridCell.Tab.2.bottom" timestamp="1639313714325">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
