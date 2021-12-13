@@ -1,7 +1,5 @@
 package com.example.controller;
 
-import com.example.domain.Message;
-import com.example.domain.User;
 import com.example.repos.MessageRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
