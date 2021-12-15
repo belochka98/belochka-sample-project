@@ -7,15 +7,26 @@ import javax.validation.constraints.NotBlank;
 
 @Entity
 public class Message {
+    // SPECIFICATION BLOCK
+
     @Id
     @GeneratedValue(strategy= GenerationType.SEQUENCE)
     private Long id;
+
     @NotBlank(message = "Please fill the message")
     @Length(max = 2048, message = "Message too long (more than 2kB)")
     private String text;
+
     @Length(max = 255, message = "Message too long (more than 255)")
     private String tag;
+
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "user_id")
+    private User author;
+
     private String filename;
+
+    // BODY BLOCK
 
     public String getFilename() {
         return filename;
@@ -24,10 +35,6 @@ public class Message {
     public void setFilename(String filename) {
         this.filename = filename;
     }
-
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "user_id")
-    private User author;
 
     public String getAuthorName() {
         return author != null ? author.getUsername() : "<none>";
@@ -39,9 +46,6 @@ public class Message {
 
     public void setAuthor(User author) {
         this.author = author;
-    }
-
-    public Message() {
     }
 
     public Message(String text, String tag, User user) {
@@ -72,5 +76,8 @@ public class Message {
 
     public void setTag(String tag) {
         this.tag = tag;
+    }
+
+    public Message() {
     }
 }

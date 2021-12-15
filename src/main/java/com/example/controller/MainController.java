@@ -3,8 +3,8 @@ package com.example.controller;
 import com.example.domain.Message;
 import com.example.domain.User;
 import com.example.repos.MessageRepo;
+import com.example.service.file.FileStorageServiceImp;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,19 +17,17 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.validation.Valid;
-import java.io.File;
 import java.io.IOException;
 import java.util.Map;
 import java.util.Set;
-import java.util.UUID;
 
 @Controller
 public class MainController {
     @Autowired
     private MessageRepo messageRepo;
 
-    @Value("${upload.path}")
-    public String uploadPath;
+    @Autowired
+    FileStorageServiceImp fileStorageService;
 
     @GetMapping("/")
     public String greeting(Map<String, Object> model) {
@@ -81,23 +79,14 @@ public class MainController {
 
         model.addAttribute("messages", messages);
 
-        return "main";
+        return "redirect:/main";
     }
 
     public void saveFile(@Valid Message message, @RequestParam("file") MultipartFile file) throws IOException {
         if (!file.isEmpty() && !file.getOriginalFilename().isEmpty()) {
-            File uploadDir = new File(uploadPath);
+            String newFileName = fileStorageService.saveFile(file);
 
-            if (!uploadDir.exists()) {
-                uploadDir.mkdirs();
-            }
-
-            String uuidFile = UUID.randomUUID().toString();
-            String resultFilename = uuidFile + "." + file.getOriginalFilename();
-
-            file.transferTo(new File(uploadPath + "/" + resultFilename));
-
-            message.setFilename(resultFilename);
+            message.setFilename(newFileName);
         }
     }
 

@@ -1,0 +1,24 @@
+Index: .idea/libraries/Maven__antlr_antlr_2_7_7.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\n  <library name=\"Maven: antlr:antlr:2.7.7\">\n    <CLASSES>\n      <root url=\"jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar!/\" />\n    </CLASSES>\n    <JAVADOC />\n    <SOURCES />\n    <excluded>\n      <root url=\"jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar!/\" />\n    </excluded>\n  </library>\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__antlr_antlr_2_7_7.xml	(revision 59c3756af76d5776c1f63f5c2d861678c9b7926c)
++++ .idea/libraries/Maven__antlr_antlr_2_7_7.xml	(date 1639420006816)
+@@ -3,8 +3,12 @@
+     <CLASSES>
+       <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar!/" />
+     </CLASSES>
+-    <JAVADOC />
+-    <SOURCES />
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7-sources.jar!/" />
++    </SOURCES>
+     <excluded>
+       <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar!/" />
+     </excluded>
