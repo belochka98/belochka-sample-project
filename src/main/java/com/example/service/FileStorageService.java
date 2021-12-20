@@ -1,4 +1,4 @@
-package com.example.service.file;
+package com.example.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
@@ -15,12 +15,10 @@ import java.util.UUID;
 import java.util.stream.Stream;
 
 @Service
-public class FileStorageServiceImp implements FileStorageService {
-
+public class FileStorageService {
     @Value("${storage.location}")
     private Path uploadPath;
 
-    @Override
     public void init() {
         try {
             Files.createDirectories(uploadPath);
@@ -29,7 +27,6 @@ public class FileStorageServiceImp implements FileStorageService {
         }
     }
 
-    @Override
     public void save(MultipartFile file) {
         try {
             this.init();
@@ -43,7 +40,6 @@ public class FileStorageServiceImp implements FileStorageService {
         }
     }
 
-    @Override
     public Resource load(String filename) {
         try {
             Path file = uploadPath.resolve(filename);
@@ -59,12 +55,10 @@ public class FileStorageServiceImp implements FileStorageService {
         }
     }
 
-    @Override
     public void deleteAll() {
         FileSystemUtils.deleteRecursively(uploadPath.toFile());
     }
 
-    @Override
     public Stream<Path> loadAll() {
         try {
             return Files.walk(uploadPath, 1).filter(path -> !path.equals(uploadPath)).map(uploadPath::relativize);

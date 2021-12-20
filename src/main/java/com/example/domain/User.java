@@ -65,9 +65,7 @@ public class User implements UserDetails {
         return activationCode;
     }
 
-    public void setActivationCode(String activationCode) {
-        this.activationCode = activationCode;
-    }
+    public void setActivationCode(String activationCode) { this.activationCode = activationCode; }
 
     public boolean isAdmin() {
         return roles.contains(Role.ADMIN);

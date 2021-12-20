@@ -1,8 +1,8 @@
 <#import "parts/common.ftlh" as common>
-<#import "parts/login.ftlh" as login>
+<#import "parts/userAccount.ftlh" as account>
 
 <@common.page>
-    Add new user
     ${message?ifExists}
-    <@login.login "/registration" true/>
+
+    <@account.form "/registration" false/>
 </@common.page>

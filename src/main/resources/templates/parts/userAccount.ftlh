@@ -1,6 +1,9 @@
-<#macro login path isRegisterForm>
-    <form class="position-fixed top-50 start-50 translate-middle p-4  border border-4 border-primary rounded"
+<#include "security.ftlh">
+<#macro form path isLogIn>
+    <form class="position-fixed top-50 start-50 translate-middle p-4 border border-4 border-primary rounded bg-light"
           action="${path}" method="post">
+        <input type="hidden" name="_csrf" value="${_csrf.token}"/>
+
         <div class="form-group row">
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">User Name</label>
@@ -8,6 +11,7 @@
                        name="username"
                        class="form-control"
                        placeholder="Put your user name"
+                       <#if currentUserId gt 0>readonly</#if>
                        value="<#if user??>${user.username}</#if>"
                 >
                 <#if usernameError??>
@@ -30,7 +34,7 @@
             </div>
         </div>
 
-        <#if isRegisterForm>
+        <#if !isLogIn>
             <div class="mb-3">
                 <label for="exampleInputPassword1"
                        class="form-label ${(usernameError??)?string('is-invalid', '')}">Password</label>
@@ -61,11 +65,19 @@
             </div>
         </#if>
 
-        <input type="hidden" name="_csrf" value="${_csrf.token}"/>
         <button class="btn btn-primary" type="submit">
-            <#if isRegisterForm>Create user account<#else>Sign In</#if>
+            <#if isLogIn>
+                Sign In
+            <#else>
+                <#if currentUserId??>
+                    Save user account
+                <#else>
+                    Create user account
+                </#if>
+            </#if>
         </button>
-        <#if !isRegisterForm>
+
+        <#if isLogIn>
             <a class="btn btn-secondary btn-primary enabled"
                role="button"
                aria-disabled="true"

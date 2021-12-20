@@ -11,8 +11,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.Collections;
+import java.util.List;
+import java.util.UUID;
 
 @Service
 public class UserService implements UserDetailsService {
@@ -41,7 +42,7 @@ public class UserService implements UserDetailsService {
             return false;
         }
 
-       // user.setActive(true);
+        // user.setActive(true);
         user.setRoles(Collections.singleton(Role.USER));
         user.setActivationCode(UUID.randomUUID().toString());
         user.setPassword(passwordEncoder.encode(user.getPassword()));
@@ -74,42 +75,17 @@ public class UserService implements UserDetailsService {
         return userRepo.findAll();
     }
 
-    public void saveUser(User user, String username, Map<String, String> form) {
-        user.setUsername(username);
-        //user.setPassword(passwordEncoder.encode(user.getPassword()));
-
-        Set<String> roles = Arrays.stream(Role.values())
-                .map(Role::name)
-                .collect(Collectors.toSet());
-
-        user.getRoles().clear();
-
-        for (String key : form.keySet()) {
-            if (roles.contains(key)) {
-                user.getRoles().add(Role.valueOf(key));
-            }
-        }
-
-        userRepo.save(user);
-    }
-
-    public void updateProfile(User user, String password, String email) {
-        String userEmail = user.getEmail();
-
-        boolean isEmailChanged = (email != null && !email.equals(userEmail)) ||
-                (userEmail != null && !userEmail.equals(email));
+    public boolean saveUser(User user) {
+        boolean isEmailChanged = (user.getEmail() != null && !userRepo.existsByIdAndEmail(user.getId(), user.getEmail()));
 
         if (isEmailChanged) {
-            user.setEmail(email);
-
-            if (!StringUtils.isEmpty(email)) {
-                user.setActivationCode(UUID.randomUUID().toString());
-            }
+            user.setActivationCode(UUID.randomUUID().toString());
+            user.setActive(false);
         }
 
-        if (!StringUtils.isEmpty(password)) {
-            user.setPassword(password);
-            user.setPassword(passwordEncoder.encode(password));
+        if (!StringUtils.isEmpty(user.getPassword())) {
+            user.setPassword(user.getPassword());
+            user.setPassword(passwordEncoder.encode(user.getPassword()));
         }
 
         userRepo.save(user);
@@ -117,6 +93,8 @@ public class UserService implements UserDetailsService {
         if (isEmailChanged) {
             sendMessage(user);
         }
+
+        return true;
     }
 
     private void sendMessage(User user) {
@@ -131,4 +109,26 @@ public class UserService implements UserDetailsService {
             mailSenderService.send(user.getEmail(), "Activation code", message);
         }
     }
+
+
+    /*
+        public boolean saveUser(User user) {
+
+            Set<String> roles = Arrays.stream(Role.values())
+                    .map(Role::name)
+                    .collect(Collectors.toSet());
+
+            user.getRoles().clear();
+
+            for (String key : form.keySet()) {
+                if (roles.contains(key)) {
+                    user.getRoles().add(Role.valueOf(key));
+                }
+            }
+
+            userRepo.save(user);
+
+            return true;
+        }
+    */
 }
