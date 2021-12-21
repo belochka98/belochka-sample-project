@@ -3,7 +3,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/main">Navbar</a>
+        <a class="navbar-brand" href="/main">MyProject</a>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="/main">Home</a>

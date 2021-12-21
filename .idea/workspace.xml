@@ -19,70 +19,36 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/main.test" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main.test" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d3e47fd-8f3a-404c-8b1d-c4d951b3daeb" name="Default Changelist" comment="Revert &quot;Delete src/main directory&quot;&#10;&#10;This reverts commit ec2a2406">
-      <change afterPath="$PROJECT_DIR$/resources/uploads/mainBackground.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messagesList.ftlh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/rolesList.ftlh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userProfile.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d33397ba-e2d1-4dd6-9b78-67ba6e18a959.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d33397ba-e2d1-4dd6-9b78-67ba6e18a959.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d33397ba-e2d1-4dd6-9b78-67ba6e18a959/storage_v2/_src_/database/dak9p9o556u700.neS-Nw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d33397ba-e2d1-4dd6-9b78-67ba6e18a959/storage_v2/_src_/database/dak9p9o556u700.neS-Nw/schema/public.abK9xQ.meta" afterDir="false" />
+    <list default="true" id="9d3e47fd-8f3a-404c-8b1d-c4d951b3daeb" name="Default Changelist" comment="Commit new version app.&#10;&#10;Changes:&#10; Rework controllers;&#10; Rework ftlh templates;&#10; Redesign pages.">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_example_sweater_1_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_6_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_12_2021_21_27_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_12_2021_21_27__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/uploads/00f83d14-ab99-40cb-990b-aa249d0f6004.ArcheAge_sample.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/uploads/b1ec83b6-b4be-4340-aaf6-0a6d0b3b459c.ArcheAge_sample.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repos/MessageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repos/MessageRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repos/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repos/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/file/FileStorageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/file/FileStorageServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/FileStorageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/messagesList.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/greeting.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.ftlh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/userAccount.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftlh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/profile.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userList.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userList.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userMessages.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userMessages.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/myProject.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/config/MvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repos/MessageRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/repos/MessageRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repos/UserRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/repos/UserRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/file/FileStorageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/file/FileStorageServiceImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/login.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageEdit.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/messageEdit.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/greeting.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/greeting.ftlh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/profile.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/registration.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/registration.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/userList.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userList.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/userMessages.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userMessages.ftlh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +247,8 @@
       <workItem from="1639810165330" duration="14564000" />
       <workItem from="1639899436034" duration="9526000" />
       <workItem from="1639920140655" duration="16997000" />
-      <workItem from="1640017990837" duration="5277000" />
+      <workItem from="1640017990837" duration="5796000" />
+      <workItem from="1640108551211" duration="2059000" />
     </task>
     <task id="LOCAL-00001" summary="tt">
       <created>1639299473243</created>
@@ -360,7 +327,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639596942215</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Commit new version app.&#10;&#10;Changes:&#10; Rework controllers;&#10; Rework ftlh templates;&#10; Redesign pages.">
+      <created>1640034462293</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1640034462293</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Commit new version app.&#10;&#10;Changes:&#10; Rework controllers;&#10; Rework ftlh templates;&#10; Redesign pages.">
+      <created>1640034469877</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1640034469877</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,7 +359,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main.test" />
+                        <option value="main.test" />
                       </list>
                     </value>
                   </entry>
@@ -399,7 +380,8 @@
     <MESSAGE value="tt" />
     <MESSAGE value="Revert &quot;Delete .gitignore&quot;&#10;&#10;This reverts commit 65d48bcf" />
     <MESSAGE value="Revert &quot;Delete src/main directory&quot;&#10;&#10;This reverts commit ec2a2406" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Delete src/main directory&quot;&#10;&#10;This reverts commit ec2a2406" />
+    <MESSAGE value="Commit new version app.&#10;&#10;Changes:&#10; Rework controllers;&#10; Rework ftlh templates;&#10; Redesign pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit new version app.&#10;&#10;Changes:&#10; Rework controllers;&#10; Rework ftlh templates;&#10; Redesign pages." />
   </component>
   <component name="WindowStateProjectService">
     <state x="341" y="0" width="697" height="728" key="#Application" timestamp="1639306695046">
@@ -478,54 +460,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="507" y="281" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1639324858542" />
-    <state width="1322" height="197" key="GridCell.Tab.0.bottom" timestamp="1640033892068">
+    <state width="1322" height="197" key="GridCell.Tab.0.bottom" timestamp="1640110486557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1640033892068" />
-    <state width="1322" height="197" key="GridCell.Tab.0.center" timestamp="1640033892068">
+    <state width="1322" height="197" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
+    <state width="1322" height="197" key="GridCell.Tab.0.center" timestamp="1640110486557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1640033892068" />
-    <state width="1322" height="197" key="GridCell.Tab.0.left" timestamp="1640033892068">
+    <state width="1322" height="197" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
+    <state width="1322" height="197" key="GridCell.Tab.0.left" timestamp="1640110486557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1640033892068" />
-    <state width="1322" height="197" key="GridCell.Tab.0.right" timestamp="1640033892068">
+    <state width="1322" height="197" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
+    <state width="1322" height="197" key="GridCell.Tab.0.right" timestamp="1640110486557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1640033892068" />
-    <state width="1322" height="197" key="GridCell.Tab.1.bottom" timestamp="1640033891918">
+    <state width="1322" height="197" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
+    <state width="1322" height="197" key="GridCell.Tab.1.bottom" timestamp="1640110486557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1640033891918" />
-    <state width="1322" height="197" key="GridCell.Tab.1.center" timestamp="1640033891918">
+    <state width="1322" height="197" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
+    <state width="1322" height="197" key="GridCell.Tab.1.center" timestamp="1640110486557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1640033891918" />
-    <state width="1322" height="197" key="GridCell.Tab.1.left" timestamp="1640033891918">
+    <state width="1322" height="197" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
+    <state width="1322" height="197" key="GridCell.Tab.1.left" timestamp="1640110486557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1640033891918" />
-    <state width="1322" height="197" key="GridCell.Tab.1.right" timestamp="1640033891918">
+    <state width="1322" height="197" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
+    <state width="1322" height="197" key="GridCell.Tab.1.right" timestamp="1640110486557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1640033891918" />
-    <state width="1322" height="197" key="GridCell.Tab.2.bottom" timestamp="1640033891918">
+    <state width="1322" height="197" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
+    <state width="1322" height="197" key="GridCell.Tab.2.bottom" timestamp="1640110486558">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1640033891918" />
-    <state width="1322" height="197" key="GridCell.Tab.2.center" timestamp="1640033891918">
+    <state width="1322" height="197" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1640110486558" />
+    <state width="1322" height="197" key="GridCell.Tab.2.center" timestamp="1640110486557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1640033891918" />
-    <state width="1322" height="197" key="GridCell.Tab.2.left" timestamp="1640033891918">
+    <state width="1322" height="197" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
+    <state width="1322" height="197" key="GridCell.Tab.2.left" timestamp="1640110486557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1640033891918" />
-    <state width="1322" height="197" key="GridCell.Tab.2.right" timestamp="1640033891918">
+    <state width="1322" height="197" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
+    <state width="1322" height="197" key="GridCell.Tab.2.right" timestamp="1640110486558">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1640033891918" />
+    <state width="1322" height="197" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1640110486558" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1639225695714">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -542,10 +524,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="301" y="65" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1639775520192" />
-    <state x="168" y="0" key="SettingsEditor" timestamp="1639315578466">
+    <state x="168" y="0" key="SettingsEditor" timestamp="1640109842650">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="168" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1639315578466" />
+    <state x="168" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1640109842650" />
     <state x="92" y="92" width="1182" height="544" key="ShowDiffWithBranchDialog" timestamp="1639323986743">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -558,10 +540,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="523" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1637940158538" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1639596948114">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1640034487824">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1639596948114" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1640034487824" />
     <state width="683" height="367" key="XDebugger.FullValuePopup" timestamp="1639902369783">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
