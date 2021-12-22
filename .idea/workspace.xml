@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -26,29 +29,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d3e47fd-8f3a-404c-8b1d-c4d951b3daeb" name="Default Changelist" comment="Commit new version app.&#10;&#10;Changes:&#10; Rework controllers;&#10; Rework ftlh templates;&#10; Redesign pages.">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_example_sweater_1_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_6_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_12_2021_21_27_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_12_2021_21_27__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/heroku-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heroku-demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heroku-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heroku-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heroku-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heroku-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heroku-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heroku-demo/src/main/java/com/example/herokudemo/HerokuDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heroku-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heroku-demo/src/test/java/com/example/herokudemo/HerokuDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d33397ba-e2d1-4dd6-9b78-67ba6e18a959.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d33397ba-e2d1-4dd6-9b78-67ba6e18a959.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d33397ba-e2d1-4dd6-9b78-67ba6e18a959/storage_v2/_src_/database/dak9p9o556u700.neS-Nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d33397ba-e2d1-4dd6-9b78-67ba6e18a959/storage_v2/_src_/database/dak9p9o556u700.neS-Nw/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d33397ba-e2d1-4dd6-9b78-67ba6e18a959/storage_v2/_src_/database/dak9p9o556u700.neS-Nw/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d33397ba-e2d1-4dd6-9b78-67ba6e18a959/storage_v2/_src_/database/dak9p9o556u700.neS-Nw/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/greeting.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/greeting.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/greeting.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshKey" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshKey.pub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/config/MvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/ControllerUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/MessageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/RegistrationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repos/MessageRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repos/UserRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/FileStorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/MailSenderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/MessageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V1_1_0__my_first_migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V1_1_1__my_first_migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V1_1_2__my_first_migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/greeting.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/messagesList.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageEdit.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messagesList.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/rolesList.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/security.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/userAccount.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/registration.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userEdit.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userList.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userMessages.ftlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userProfile.ftlh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +116,23 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="21JcYy33gXuk4G4cuhT6IVE8NxC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -103,11 +162,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/parts" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47816092" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -178,6 +238,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringBeansView">
     <option name="beanDetailsProportion" value="0.3" />
   </component>
@@ -248,7 +309,14 @@
       <workItem from="1639899436034" duration="9526000" />
       <workItem from="1639920140655" duration="16997000" />
       <workItem from="1640017990837" duration="5796000" />
-      <workItem from="1640108551211" duration="2059000" />
+      <workItem from="1640108551211" duration="3157000" />
+      <workItem from="1640111813887" duration="1326000" />
+      <workItem from="1640114239232" duration="2995000" />
+      <workItem from="1640186534782" duration="580000" />
+      <workItem from="1640197000406" duration="1523000" />
+      <workItem from="1640199397598" duration="384000" />
+      <workItem from="1640199895523" duration="3802000" />
+      <workItem from="1640205437202" duration="1267000" />
     </task>
     <task id="LOCAL-00001" summary="tt">
       <created>1639299473243</created>
@@ -341,11 +409,18 @@
       <option name="project" value="LOCAL" />
       <updated>1640034469877</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Commit new version app.&#10;&#10;Changes:&#10; Rework controllers;&#10; Rework ftlh templates;&#10; Redesign pages.">
+      <created>1640110635171</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1640110635171</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -370,7 +445,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -382,232 +456,6 @@
     <MESSAGE value="Revert &quot;Delete src/main directory&quot;&#10;&#10;This reverts commit ec2a2406" />
     <MESSAGE value="Commit new version app.&#10;&#10;Changes:&#10; Rework controllers;&#10; Rework ftlh templates;&#10; Redesign pages." />
     <option name="LAST_COMMIT_MESSAGE" value="Commit new version app.&#10;&#10;Changes:&#10; Rework controllers;&#10; Rework ftlh templates;&#10; Redesign pages." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="341" y="0" width="697" height="728" key="#Application" timestamp="1639306695046">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="341" y="0" width="697" height="728" key="#Application/0.0.1366.728@0.0.1366.728" timestamp="1639306695046" />
-    <state x="275" y="21" key="#Deployment" timestamp="1637765644541">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="21" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1637765644541" />
-    <state x="325" y="225" width="848" height="424" key="#Notifications" timestamp="1637765217637">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="325" y="225" width="848" height="424" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1637765217637" />
-    <state x="163" y="0" key="#Project_Structure" timestamp="1639324101625">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1639324101625" />
-    <state x="192" y="8" key="#SSH_Configurations" timestamp="1638997457143">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="192" y="8" key="#SSH_Configurations/0.0.1366.728@0.0.1366.728" timestamp="1638997457143" />
-    <state x="274" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1639426940137">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="274" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1639426940137" />
-    <state x="438" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1637938428926">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="438" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1637938428926" />
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1639812601698">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1639812601698" />
-    <state x="549" y="170" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1639328376421">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="549" y="170" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1639328376421" />
-    <state x="263" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1639936727693">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="263" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1639936727693" />
-    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1639594201319">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1639594201319" />
-    <state x="392" y="11" key="#console_2.sql" timestamp="1638624978507">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="392" y="11" key="#console_2.sql/0.0.1366.728@0.0.1366.728" timestamp="1638624978507" />
-    <state x="89" y="119" width="1210" height="497" key="#xdebugger.XInspectDialog" timestamp="1638896808280">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="89" y="119" width="1210" height="497" key="#xdebugger.XInspectDialog/0.0.1366.728@0.0.1366.728" timestamp="1638896808280" />
-    <state x="689" y="131" key="#xdebugger.evaluate" timestamp="1639591128267">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="689" y="131" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1639591128267" />
-    <state x="412" y="204" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1639508754200">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="412" y="204" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1639508754200" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1639323085418">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1639323085418" />
-    <state width="441" height="438" key="DebuggerActiveHint" timestamp="1639592682923">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="441" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1639592682923" />
-    <state x="394" y="235" width="725" height="493" key="FileChooserDialogImpl" timestamp="1639315541281">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="394" y="235" width="725" height="493" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1639315541281" />
-    <state x="507" y="281" key="Github.CreateGistDialog" timestamp="1639324858542">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="507" y="281" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1639324858542" />
-    <state width="1322" height="197" key="GridCell.Tab.0.bottom" timestamp="1640110486557">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="197" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
-    <state width="1322" height="197" key="GridCell.Tab.0.center" timestamp="1640110486557">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="197" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
-    <state width="1322" height="197" key="GridCell.Tab.0.left" timestamp="1640110486557">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="197" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
-    <state width="1322" height="197" key="GridCell.Tab.0.right" timestamp="1640110486557">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="197" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
-    <state width="1322" height="197" key="GridCell.Tab.1.bottom" timestamp="1640110486557">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="197" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
-    <state width="1322" height="197" key="GridCell.Tab.1.center" timestamp="1640110486557">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="197" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
-    <state width="1322" height="197" key="GridCell.Tab.1.left" timestamp="1640110486557">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="197" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
-    <state width="1322" height="197" key="GridCell.Tab.1.right" timestamp="1640110486557">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="197" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
-    <state width="1322" height="197" key="GridCell.Tab.2.bottom" timestamp="1640110486558">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="197" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1640110486558" />
-    <state width="1322" height="197" key="GridCell.Tab.2.center" timestamp="1640110486557">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="197" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
-    <state width="1322" height="197" key="GridCell.Tab.2.left" timestamp="1640110486557">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="197" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1640110486557" />
-    <state width="1322" height="197" key="GridCell.Tab.2.right" timestamp="1640110486558">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="197" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1640110486558" />
-    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1639225695714">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1639225695714" />
-    <state x="426" y="35" key="Maven.ArtifactSearchDialog" timestamp="1639334224876">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="426" y="35" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1639334224876" />
-    <state x="25" y="229" width="1003" height="287" key="MultipleFileMergeDialog" timestamp="1639323080537">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="25" y="229" width="1003" height="287" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1639323080537" />
-    <state x="301" y="65" key="RollbackChangesDialog" timestamp="1639775520192">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="301" y="65" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1639775520192" />
-    <state x="168" y="0" key="SettingsEditor" timestamp="1640109842650">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="168" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1640109842650" />
-    <state x="92" y="92" width="1182" height="544" key="ShowDiffWithBranchDialog" timestamp="1639323986743">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="92" y="92" width="1182" height="544" key="ShowDiffWithBranchDialog/0.0.1366.728@0.0.1366.728" timestamp="1639323986743" />
-    <state x="404" y="93" width="540" height="524" key="StructurePopup" timestamp="1639233483478">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="404" y="93" width="540" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1639233483478" />
-    <state width="523" height="446" key="SwitcherDM" timestamp="1637940158538">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="523" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1637940158538" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1640034487824">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1640034487824" />
-    <state width="683" height="367" key="XDebugger.FullValuePopup" timestamp="1639902369783">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="683" height="367" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1639902369783" />
-    <state x="564" y="207" width="634" height="348" key="cloudConfig.SelfSettingsDialog" timestamp="1639306565610">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="564" y="207" width="634" height="348" key="cloudConfig.SelfSettingsDialog/0.0.1366.728@0.0.1366.728" timestamp="1639306565610" />
-    <state x="581" y="242" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1639177518972">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="581" y="242" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728@0.0.1366.728" timestamp="1639177518972" />
-    <state x="530" y="190" width="316" height="383" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1639900274533">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="530" y="190" width="316" height="383" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1639900274533" />
-    <state x="337" y="270" width="474" height="405" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog" timestamp="1639900422178">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="337" y="270" width="474" height="405" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog/0.0.1366.728@0.0.1366.728" timestamp="1639900422178" />
-    <state x="263" y="17" key="com.intellij.database.dbimport.ImportDialog" timestamp="1638625186908">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="263" y="17" key="com.intellij.database.dbimport.ImportDialog/0.0.1366.728@0.0.1366.728" timestamp="1638625186908" />
-    <state x="413" y="167" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1638625170930">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="413" y="167" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1366.728@0.0.1366.728" timestamp="1638625170930" />
-    <state x="612" y="307" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1639233610703">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="612" y="307" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1366.728@0.0.1366.728" timestamp="1639233610703" />
-    <state x="177" y="67" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1639233619383">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="177" y="67" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.0.1366.728@0.0.1366.728" timestamp="1639233619383" />
-    <state x="492" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1639325592479">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="492" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1639325592479" />
-    <state x="237" y="91" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1638307846802">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="237" y="91" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1638307846802" />
-    <state x="719" y="160" key="extract.method.dialog" timestamp="1639812656627">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="719" y="160" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1639812656627" />
-    <state x="390" y="76" width="818" height="582" key="find.popup" timestamp="1639945389985">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="390" y="76" width="818" height="582" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1639945389985" />
-    <state x="516" y="224" key="git4idea.rebase.GitRebaseDialog" timestamp="1639301461379">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="516" y="224" key="git4idea.rebase.GitRebaseDialog/0.0.1366.728@0.0.1366.728" timestamp="1639301461379" />
-    <state x="339" y="157" key="run.anything.popup" timestamp="1638025352356">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1638025352356" />
-    <state x="346" y="49" key="search.everywhere.popup" timestamp="1637940138615">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1637940138615" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
