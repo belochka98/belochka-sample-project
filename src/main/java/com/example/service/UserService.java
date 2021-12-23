@@ -19,8 +19,7 @@ import java.util.UUID;
 public class UserService implements UserDetailsService {
     @Autowired
     private UserRepo userRepo;
-    @Autowired
-    private MailSenderService mailSenderService;
+
     @Autowired
     private PasswordEncoder passwordEncoder;
 
@@ -42,7 +41,7 @@ public class UserService implements UserDetailsService {
             return false;
         }
 
-        // user.setActive(true);
+        user.setActive(true);
         user.setRoles(Collections.singleton(Role.USER));
         user.setActivationCode(UUID.randomUUID().toString());
         user.setPassword(passwordEncoder.encode(user.getPassword()));
@@ -50,8 +49,6 @@ public class UserService implements UserDetailsService {
         userRepo.save(user);
 
         String s = user.getEmail();
-
-        sendMessage(user);
 
         return true;
     }
@@ -80,7 +77,7 @@ public class UserService implements UserDetailsService {
 
         if (isEmailChanged) {
             user.setActivationCode(UUID.randomUUID().toString());
-            user.setActive(false);
+            user.setActive(true);
         }
 
         if (!StringUtils.isEmpty(user.getPassword())) {
@@ -90,24 +87,7 @@ public class UserService implements UserDetailsService {
 
         userRepo.save(user);
 
-        if (isEmailChanged) {
-            sendMessage(user);
-        }
-
         return true;
-    }
-
-    private void sendMessage(User user) {
-        if (!StringUtils.isEmpty(user.getEmail())) {
-            String message = String.format(
-                    "Hello, %s! \n" +
-                            "Welcome to MyProject. Please, visit next link: <a>http://localhost:8080/activate/%s</a>",
-                    user.getUsername(),
-                    user.getActivationCode()
-            );
-
-            mailSenderService.send(user.getEmail(), "Activation code", message);
-        }
     }
 
 
