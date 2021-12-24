@@ -88,7 +88,6 @@
     <orderEntry type="library" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.jaxb:txw2:2.3.5" level="project" />
     <orderEntry type="library" name="Maven: com.sun.istack:istack-commons-runtime:3.0.12" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.activation:jakarta.activation:1.2.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-jpa:2.6.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-orm:5.3.13" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.13" level="project" />
@@ -118,8 +117,9 @@
     <orderEntry type="library" name="Maven: org.springframework.session:spring-session-core:2.6.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.13" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.3.13" level="project" />
-    <orderEntry type="library" name="Maven: javax.mail:mail:1.4.7" level="project" />
-    <orderEntry type="library" name="Maven: javax.activation:activation:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-mail:2.6.1" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.mail:jakarta.mail:1.6.7" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.activation:jakarta.activation:1.2.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-configuration-processor:2.6.0" level="project" />
   </component>
 </module>

@@ -28,19 +28,27 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d3e47fd-8f3a-404c-8b1d-c4d951b3daeb" name="Default Changelist" comment="Commit new version app.&#10;&#10;Changes:&#10; Rework controllers;&#10; Rework ftlh templates;&#10; Redesign pages.">
+    <list default="true" id="9d3e47fd-8f3a-404c-8b1d-c4d951b3daeb" name="Default Changelist" comment="Commit new version app.&#10;&#10;Changes:&#10; Deleted mail sender">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/MvcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/MailSenderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/ControllerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/ControllerUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/config/MvcConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/config/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/MessageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/MailSenderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/MessageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/ControllerUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/ControllerUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/registration.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/registration.ftlh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +63,8 @@
       <list>
         <option value="HTML File" />
         <option value="Class" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -113,14 +123,23 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47816092" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\skidr\Desktop\myProject\src\main\resources" />
+      <recent name="C:\Users\Admin\Desktop\myProject\src\main\resources\templates\parts" />
+      <recent name="C:\Users\Admin\Desktop\myProject\src\main\resources\db\migration" />
+      <recent name="C:\Users\Admin\Desktop\myProject\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Desktop\myProject\src\main\resources" />
       <recent name="C:\Users\Admin\Desktop\myProject" />
@@ -128,18 +147,11 @@
       <recent name="C:\Users\Admin\Desktop\myProject\src\main\resources\db\migration" />
       <recent name="C:\Users\Admin\Desktop\myProject\src\main\resources\templates\db\migrations" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\Desktop\myProject\src\main\resources\templates\parts" />
-      <recent name="C:\Users\Admin\Desktop\myProject\src\main\resources\db\migration" />
-      <recent name="C:\Users\Admin\Desktop\myProject\src\main\resources" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example" />
       <recent name="com.example.service" />
       <recent name="com.example.service.file" />
       <recent name="com.example.controller" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.example" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
@@ -268,6 +280,9 @@
       <workItem from="1640199397598" duration="384000" />
       <workItem from="1640199895523" duration="3802000" />
       <workItem from="1640205437202" duration="1267000" />
+      <workItem from="1640285125369" duration="8174000" />
+      <workItem from="1640296644422" duration="1000" />
+      <workItem from="1640360669013" duration="12553000" />
     </task>
     <task id="LOCAL-00001" summary="tt">
       <created>1639299473243</created>
@@ -374,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640281255726</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Commit new version app.&#10;&#10;Changes:&#10; Deleted mail sender">
+      <created>1640281725878</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1640281725878</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,9 +476,19 @@
     <MESSAGE value="Revert &quot;Delete .gitignore&quot;&#10;&#10;This reverts commit 65d48bcf" />
     <MESSAGE value="Revert &quot;Delete src/main directory&quot;&#10;&#10;This reverts commit ec2a2406" />
     <MESSAGE value="Commit new version app.&#10;&#10;Changes:&#10; Rework controllers;&#10; Rework ftlh templates;&#10; Redesign pages." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit new version app.&#10;&#10;Changes:&#10; Rework controllers;&#10; Rework ftlh templates;&#10; Redesign pages." />
+    <MESSAGE value="Commit new version app.&#10;&#10;Changes:&#10; Deleted mail sender" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit new version app.&#10;&#10;Changes:&#10; Deleted mail sender" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/controller/ControllerUtils.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
         <watch expression="((LinkedHashMap.Entry)((org.springframework.validation.support.BindingAwareModelMap)model).entrySet().toArray()[1]).getKey()" custom="java.util.LinkedHashMap.Entry,org.springframework.validation.support.BindingAwareModelMap" />

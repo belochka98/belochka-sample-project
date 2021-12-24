@@ -1,7 +1,7 @@
 <#import "parts/common.ftlh" as common>
 <#import "parts/userAccount.ftlh" as account>
 
-<@common.page>
+<@common.page false>
     ${message?ifExists}
 
     <@account.form "/registration" false/>

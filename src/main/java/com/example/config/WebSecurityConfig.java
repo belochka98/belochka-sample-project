@@ -32,27 +32,21 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http
-                .authorizeRequests()
-                .antMatchers("/", "/greeting","/greeting/*", "/registration", "/activate/*").permitAll()
-                .antMatchers("/", "/greeting","/greeting/*", "/registration", "/activate/*", "/uploads","/uploads/**").permitAll()
+        http.authorizeRequests()
+                .antMatchers("/activate/*")
+                .anonymous()
+                .antMatchers("/", "/greeting", "/registration", "/activate/*", "/uploads", "/uploads/**").permitAll()
                 .anyRequest().authenticated()
                 .and()
-                .formLogin()
-                .loginPage("/login")
-                .permitAll()
+                .formLogin().loginPage("/login").permitAll()
                 .and()
-                .logout()
-                .permitAll()
+                .logout().permitAll()
                 .and()
                 .rememberMe();
     }
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.userDetailsService(userService)
-                .passwordEncoder(passwordEncoder);
-
-
+        auth.userDetailsService(userService).passwordEncoder(passwordEncoder);
     }
 }

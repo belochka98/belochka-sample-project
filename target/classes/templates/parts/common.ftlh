@@ -1,4 +1,5 @@
-<#macro page hasContentDiv=true>
+<#include "security.ftlh">
+<#macro page hasContentDiv>
     <!DOCTYPE html>
     <html lang="en">
     <head>

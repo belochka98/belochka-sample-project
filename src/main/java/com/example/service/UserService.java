@@ -1,5 +1,6 @@
 package com.example.service;
 
+import com.example.controller.ControllerUtils;
 import com.example.domain.Role;
 import com.example.domain.User;
 import com.example.repos.UserRepo;
@@ -41,16 +42,18 @@ public class UserService implements UserDetailsService {
             return false;
         }
 
-        user.setActive(true);
+        //user.setActive(true);
         user.setRoles(Collections.singleton(Role.USER));
         user.setActivationCode(UUID.randomUUID().toString());
         user.setPassword(passwordEncoder.encode(user.getPassword()));
 
         userRepo.save(user);
 
-        String s = user.getEmail();
-
-        return true;
+       if (ControllerUtils.sendActivationMessage(user)) {
+           return true;
+        } else {
+           return false;
+       }
     }
 
     public boolean activateUser(String code) {
@@ -89,7 +92,6 @@ public class UserService implements UserDetailsService {
 
         return true;
     }
-
 
     /*
         public boolean saveUser(User user) {
