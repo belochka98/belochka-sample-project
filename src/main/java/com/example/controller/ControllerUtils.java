@@ -17,15 +17,15 @@ import java.util.stream.Collectors;
 
 @RestController
 public class ControllerUtils {
-    private static String host;
+    private static String hostName;
     private static String senderHost;
     private static String senderPort;
     private static String senderName;
     private static String senderPassword;
 
-    @Value("${host}")
+    @Value("${hostName}")
     public void setHost(String value) {
-        this.host = value;
+        this.hostName = value;
     }
 
     @Value("${spring.mail.host}")
@@ -68,7 +68,7 @@ public class ControllerUtils {
                 "Hello, %s! \n" +
                         "Welcome to Sweater. Please, visit next link: <a>http://%s/activate/%s</a>",
                 user.getUsername(),
-                host,
+                hostName,
                 user.getActivationCode()
         );
 
