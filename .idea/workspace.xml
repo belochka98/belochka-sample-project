@@ -30,7 +30,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9d3e47fd-8f3a-404c-8b1d-c4d951b3daeb" name="Default Changelist" comment="Commit new version app.&#10;&#10;Changes:&#10; Add mail sender;&#10; Prefer to deploy.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/userAccount.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/userAccount.ftlh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,6 +139,7 @@
     <configuration name="Application" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Application" />
       <module name="myProject" />
+      <option name="PROGRAM_PARAMETERS" value="-Dspring.profiles.active=dev" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.controller.file.*" />
@@ -150,10 +150,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="console_2.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-mode>FILE</script-mode>
-      <method v="2" />
-    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="myProject" />
       <extension name="coverage">
@@ -163,6 +159,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
+      <option name="ACTIVE_PROFILES" value="-Dspring.profiles.active=dev" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,13 +167,11 @@
     </configuration>
     <list>
       <item itemvalue="Application.Application" />
-      <item itemvalue="Database Script.console_2.sql" />
       <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="Database Script.console_2.sql" />
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Database Script.console_2.sql" />
         <item itemvalue="Spring Boot.Application" />
@@ -267,6 +262,7 @@
       <workItem from="1640360669013" duration="16811000" />
       <workItem from="1640386803565" duration="560000" />
       <workItem from="1640417960900" duration="3097000" />
+      <workItem from="1640432884268" duration="1311000" />
     </task>
     <task id="LOCAL-00001" summary="tt">
       <created>1639299473243</created>
