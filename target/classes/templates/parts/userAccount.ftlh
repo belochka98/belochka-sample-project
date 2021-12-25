@@ -12,7 +12,7 @@
                        class="form-control"
                        placeholder="Put your user name"
                        <#if currentUserId gt 0>readonly</#if>
-                       value="<#if user??>${user.username}</#if>"
+                       value="<#if user??>${user.username}<#elseif isLogIn>belochka</#if>"
                 >
                 <#if usernameError??>
                     <div class="invalid-feedback">
@@ -25,7 +25,9 @@
                 <input type="password" name="password"
                        class="form-control ${(passwordError??)?string('is-invalid', '')}"
                        placeholder="Password"
-                       id="exampleInputPassword1">
+                       id="exampleInputPassword1"
+                       value="<#if user??>${user.password}<#elseif isLogIn>belochka</#if>"
+                >
                 <#if passwordError??>
                     <div class="invalid-feedback">
                         ${passwordError}
